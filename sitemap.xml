@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">	
+
+<url>
+    <loc>https://blog.oopsky.top/blog/links/</loc>
+    <lastmod>2020-01-07</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.8</priority>
+</url>
+
+<url>
+    <loc>https://blog.oopsky.top/blog/about/</loc>
+    <lastmod>2019-10-24</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.8</priority>
+</url>
+
+<url>
+    <loc>https://blog.oopsky.top/blog/archives/Linux-QQ-回归后第二个版本发布了/</loc>
+    <lastmod>2020-04-03</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://blog.oopsky.top/blog/archives/the_disk_is_suddenly_full/</loc>
+    <lastmod>2019-11-23</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://blog.oopsky.top/blog/archives/linux_qq_2019_experience/</loc>
+    <lastmod>2019-10-25</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://blog.oopsky.top/blog/archives/A_new_start/</loc>
+    <lastmod>2019-09-16</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://blog.oopsky.top/blog/archives/A_word_from_a_teacher_named_ai_yuejin/</loc>
+    <lastmod>2019-09-08</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
+    <loc>https://blog.oopsky.top/blog/archives/Do_you_know_xiang_you_xin_sheng/</loc>
+    <lastmod>2019-07-23</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+</url>
+
+</urlset>
