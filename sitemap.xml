@@ -5,56 +5,56 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitem
 xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">	
 
 <url>
-    <loc>https://blog.oopsky.top/blog/links/</loc>
+    <loc>https://waleslau.github.io/blog/links/</loc>
     <lastmod>2020-01-07</lastmod>
     <changefreq>always</changefreq>
     <priority>0.8</priority>
 </url>
 
 <url>
-    <loc>https://blog.oopsky.top/blog/about/</loc>
+    <loc>https://waleslau.github.io/blog/about/</loc>
     <lastmod>2019-10-24</lastmod>
     <changefreq>always</changefreq>
     <priority>0.8</priority>
 </url>
 
 <url>
-    <loc>https://blog.oopsky.top/blog/archives/Linux-QQ-%E5%9B%9E%E5%BD%92%E5%90%8E%E7%AC%AC%E4%BA%8C%E4%B8%AA%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83%E4%BA%86/</loc>
+    <loc>https://waleslau.github.io/blog/archives/Linux-QQ-%E5%9B%9E%E5%BD%92%E5%90%8E%E7%AC%AC%E4%BA%8C%E4%B8%AA%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83%E4%BA%86/</loc>
     <lastmod>2020-04-03</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
 </url>
 
 <url>
-    <loc>https://blog.oopsky.top/blog/archives/the_disk_is_suddenly_full/</loc>
+    <loc>https://waleslau.github.io/blog/archives/the_disk_is_suddenly_full/</loc>
     <lastmod>2019-11-23</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
 </url>
 
 <url>
-    <loc>https://blog.oopsky.top/blog/archives/linux_qq_2019_experience/</loc>
+    <loc>https://waleslau.github.io/blog/archives/linux_qq_2019_experience/</loc>
     <lastmod>2019-10-25</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
 </url>
 
 <url>
-    <loc>https://blog.oopsky.top/blog/archives/A_new_start/</loc>
+    <loc>https://waleslau.github.io/blog/archives/A_new_start/</loc>
     <lastmod>2019-09-16</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
 </url>
 
 <url>
-    <loc>https://blog.oopsky.top/blog/archives/A_word_from_a_teacher_named_ai_yuejin/</loc>
+    <loc>https://waleslau.github.io/blog/archives/A_word_from_a_teacher_named_ai_yuejin/</loc>
     <lastmod>2019-09-08</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
 </url>
 
 <url>
-    <loc>https://blog.oopsky.top/blog/archives/Do_you_know_xiang_you_xin_sheng/</loc>
+    <loc>https://waleslau.github.io/blog/archives/Do_you_know_xiang_you_xin_sheng/</loc>
     <lastmod>2019-07-23</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
