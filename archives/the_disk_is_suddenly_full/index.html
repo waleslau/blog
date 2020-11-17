@@ -19,7 +19,7 @@
     <script>
         var ExSearchConfig = {
             root: "",
-            api: "https://cdn.jsdelivr.net/gh/waleslau/blog@gh-pages/63d180a4772a4b487ca98f1caed8294b.json"
+            api: "https://cdn.jsdelivr.net/gh/waleslau/blog@gh-pages/41aafbb1ee67bed7d18ceb0b1fba692f.json"
         }
     </script>
     
@@ -99,20 +99,20 @@
             </span>
             <div class="ga-content_body">
                 <p>今天服务器突然报警，说我的磁盘满了？？？ :@(大囧) 登进服务器看了一下，乖乖，还真是！(下面是我删掉一部分我自己文件后截的图，原本占用是100%，总共就剩几十M空间了)</p>
-<p><figure style="flex: 220.86776859504133" ><img width="1069" height="242" src="https://cdn.jsdelivr.net/gh/waleslau/blog@gh-pages/archives/assets/7ff667e773e5cbd475702cc56e71a0c5.png" /><figcaption>1</figcaption></figure>
+<p><figure style="flex: 220.86776859504133" ><img loading="lazy" width="1069" height="242" src="https://cdn.jsdelivr.net/gh/waleslau/blog@gh-pages/archives/assets/7ff667e773e5cbd475702cc56e71a0c5.png" /><figcaption>1</figcaption></figure>
 这是肿莫情况？我记得我没有往服务器上搞太多东西啊，莫非被黑客攻击了？我这小破机也没人看得上吧，哈哈，回到正题，既然磁盘满了，那就去看看是什么文件占掉了我的空间，</p>
 <p>首先把工作目录切换到<code>/</code>，然后执行<code>du --max-depth=1 -h</code>查看哪个子目录占用了较多的空间。</p>
-<p><figure style="flex: 63.44827586206897" ><img width="736" height="580" src="https://cdn.jsdelivr.net/gh/waleslau/blog@gh-pages/archives/assets/0a7620107efd3d8619b3b407539f8bcd.png" /><figcaption>2</figcaption></figure></p>
+<p><figure style="flex: 63.44827586206897" ><img loading="lazy" width="736" height="580" src="https://cdn.jsdelivr.net/gh/waleslau/blog@gh-pages/archives/assets/0a7620107efd3d8619b3b407539f8bcd.png" /><figcaption>2</figcaption></figure></p>
 <p>可以看到<code>/tmp</code>目录占了25个G的空间，这个目录是linux系统用来存放各种临时文件的，切换到<code>tmp</code>目录，继续执行刚才那个命令。</p>
-<p><figure style="flex: 131.75895765472313" ><img width="809" height="307" src="https://cdn.jsdelivr.net/gh/waleslau/blog@gh-pages/archives/assets/3e8377f8cfbf5593e10598455bd4cde0.png" /><figcaption>3</figcaption></figure></p>
+<p><figure style="flex: 131.75895765472313" ><img loading="lazy" width="809" height="307" src="https://cdn.jsdelivr.net/gh/waleslau/blog@gh-pages/archives/assets/3e8377f8cfbf5593e10598455bd4cde0.png" /><figcaption>3</figcaption></figure></p>
 <p>锁定目标，是xdebug的锅，</p>
-<p><figure style="flex: 125.177304964539" ><img width="706" height="282" src="https://cdn.jsdelivr.net/gh/waleslau/blog@gh-pages/archives/assets/5ef001f555510b9af37ae998a6460697.png" /><figcaption>4</figcaption></figure></p>
+<p><figure style="flex: 125.177304964539" ><img loading="lazy" width="706" height="282" src="https://cdn.jsdelivr.net/gh/waleslau/blog@gh-pages/archives/assets/5ef001f555510b9af37ae998a6460697.png" /><figcaption>4</figcaption></figure></p>
 <p>可以看到，这个目录中共有30634个文件，其中最大的文件达到了46M，我搜了一下xdebug是个啥东西，</p>
-<p><figure style="flex: 56.37119113573407" ><img width="814" height="722" src="https://cdn.jsdelivr.net/gh/waleslau/blog@gh-pages/archives/assets/898b2c9fcb916eed3765c70ac7d3969b.png" /><figcaption>5</figcaption></figure></p>
+<p><figure style="flex: 56.37119113573407" ><img loading="lazy" width="814" height="722" src="https://cdn.jsdelivr.net/gh/waleslau/blog@gh-pages/archives/assets/898b2c9fcb916eed3765c70ac7d3969b.png" /><figcaption>5</figcaption></figure></p>
 <p>这玩意是PHP代码分析器，我想起来了，当初在这个服务器上搭环境时，手贱把php的插件全安装了，唉，真是自找麻烦，删光删光！ :@(小怒)</p>
-<p><figure style="flex: 131.92182410423453" ><img width="810" height="307" src="https://cdn.jsdelivr.net/gh/waleslau/blog@gh-pages/archives/assets/be8cfd7e591a4862f21c317471ec2b74.png" /><figcaption>6</figcaption></figure></p>
+<p><figure style="flex: 131.92182410423453" ><img loading="lazy" width="810" height="307" src="https://cdn.jsdelivr.net/gh/waleslau/blog@gh-pages/archives/assets/be8cfd7e591a4862f21c317471ec2b74.png" /><figcaption>6</figcaption></figure></p>
 <p>再<code>df</code>一次看看</p>
-<p><figure style="flex: 160.75471698113208" ><img width="852" height="265" src="https://cdn.jsdelivr.net/gh/waleslau/blog@gh-pages/archives/assets/44eec015e5e27abbe7d8f3d5264cbcf0.png" /><figcaption>7</figcaption></figure></p>
+<p><figure style="flex: 160.75471698113208" ><img loading="lazy" width="852" height="265" src="https://cdn.jsdelivr.net/gh/waleslau/blog@gh-pages/archives/assets/44eec015e5e27abbe7d8f3d5264cbcf0.png" /><figcaption>7</figcaption></figure></p>
 <p>干净了</p>
 <p>然后把xdebug卸载，永绝后患 :@(呲牙)</p>
 
@@ -147,7 +147,7 @@
     
         <script>
             var initValine = function () {
-                new Valine({"el": "#vcomments", "recordIP": true, "notify": true, "placeholder": "\u6765\u7545\u6240\u6b32\u8a00\u5427~", "appKey": "jst4sjGbaPnyK9Bkjpcr4Wql", "visitor": true, "appId": "0G5kInDv22lL0MvsiC6mO8nP-gzGzoHsz", "verify": true, "enable": true});
+                new Valine({"appKey": "jst4sjGbaPnyK9Bkjpcr4Wql", "recordIP": true, "placeholder": "\u6765\u7545\u6240\u6b32\u8a00\u5427~", "appId": "0G5kInDv22lL0MvsiC6mO8nP-gzGzoHsz", "visitor": true, "el": "#vcomments", "notify": true, "enable": true, "verify": true});
             }
         </script>
         <script defer src='https://cdn.jsdelivr.net/npm/valine@1.3.10/dist/Valine.min.js' onload="initValine()"></script>
