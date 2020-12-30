@@ -9,7 +9,3 @@ You can view it through these URLs
 CI service is provided by [GitHub Actions](https://github.com/features/actions) and [CODING 持续集成 (Jenkins)](https://help.coding.net/docs/devops/ci/introduce.html). 
 
 CDN service is provided by [jsDelivr](https://www.jsdelivr.com/).
-
-CI service is provided by [GitHub Actions](https://github.com/features/actions) and [CODING 持续集成 (Jenkins)](https://help.coding.net/docs/devops/ci/introduce.html). 
-
-CDN service is provided by [jsDelivr](https://www.jsdelivr.com/).
